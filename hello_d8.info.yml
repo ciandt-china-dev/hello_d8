@@ -1,0 +1,4 @@
+name: Hello Drupal 8
+type: module
+description: Say hello to Drupal 8
+core: 8.x

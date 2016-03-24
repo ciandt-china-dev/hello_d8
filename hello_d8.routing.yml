@@ -1,0 +1,7 @@
+hello_d8.sayhello:
+  path: 'sayhello/{name}'
+  defaults:
+    _title: 'Say hello to Drupal 8'
+    _controller: '\Drupal\hello_d8\Controller\HelloD8Controller::content'
+  requirements:
+    _permission: 'access content'
